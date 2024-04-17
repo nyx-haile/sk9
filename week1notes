@@ -1,0 +1,18 @@
+Week 1/2 notes.
+
+Created the skateboard design based on some principles from an earlier project,  the 'massless' skateboard, which uses a few sensors as well as the motor controller itself to give the illusion of riding a skateboard that has no or negative mass.
+
+Screenshots were taken but the original design is also available here.
+
+I started out by sketching a few board designs, trying to create a very round and natural-looking design which was loosely based on the dimensions of a longboard that I own. I added a few features, namely cutout holes for grips and trucks, some of which were based off issues I had with my own board.
+
+My board has a curved top, which I measured at around 1m radius. So, I decided to implement the same thing for the new board by intersect-extruding a 1m inner diameter pipe (~1.0125m OD) through an over-extruded vertical profile of my board. Then I filleted all the corners, which was surprisingly difficult to get right, until I realized I wanted to just choose something quite close to the maximum radius. Since the corners wouldn't necessarily be machined, I'm unsure how accurate this part of the schematic will be. My final plan is to manufacture the board from sheets of maple ply myself (preferably much before the actual time to work on the board itself, since it will probably be quite a long process) and make the cutouts using a router or similar tool. It remains to be seen at this point. I'm debating the possibility of laser cutting the pieces before gluing them together, but I think the inaccuracy of the sandwiching method means I should do all cutouts after the main process is done.
+
+I imported the trucks and modeled simple circles for the wheels because the process of making them would likely be beyond the scope of this class, and I doubt that I would have time to make them to the degree of confidence I'd like before finals. I also didn't include any wiring or references to where wiring should exist because since I'm making the board, I thought it might be interesting to do all of the wiring in between the sheets, using copper tape.
+
+There are a few notes for completion at the end of the semester, although I'm mostly confident in following this design.
+
+1. the batteries are not properly modeled to scale. I planned to have rows of batteries in a somewhat exposed manner, similar to the photo, and the model doesn't reflect the size of the batteries I currently have.
+2. I'm not particularly happy with the design for the control box, and will probably revamp it to be slightly more in line with my ideas for the theme of the board.
+3. I might make a vinyl decal for the board either this week or another.
+4. Depending on whether I choose to use separate motors or hub motors I may need to add a mount for the belt drive. I consulted a few friends who have built belt-driven skateboards, but they said they'd purchased the mounts, so I may do the same.

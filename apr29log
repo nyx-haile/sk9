@@ -1,0 +1,15 @@
+Writing a bit of a build log here so that I can have it for a full writeup later.
+
+Went into the SHED today and talked with Jack about my plans for the test mold. (currently testing ideas on strain gauges embedded in the board) My original plan was to try and fit the pieces together vertically, but thankfully Jack suggested doing it horizontally, whcich is much better. I'm now going to align the finished pieces with rods, and will hopefully soon have a test mold to begin the prototyping process.
+
+this commit also contains the test mold 3mf files.
+
+Future plans
+Neural net analysis for critical factors (for controls)
+might also consider PCA? 
+
+May need to look at KE of the board (assumed/approcimate) and dKE, alongside the acceleration due to changes in normal force due to pushing
+
+The issue is of course that detecting the push is trivial, and what is critical is determining how strong the push is and what a brake looks like.
+
+Also I've just realised that I probably don't need to embed the sensors, and i have been wasting a bunch of time potentially doing this.
